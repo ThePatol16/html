@@ -45,10 +45,48 @@ form {
     margin-top: auto;
     margin-bottom: auto;
 }
+
 .nav>*:hover {
     text-decoration: underline;
     font-style: italic;
 }
-.selected{
+
+.selected {
     color: tomato;
+}
+
+img {
+    width: 400px;
+    margin: 20px;
+}
+
+.siatka {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+th, td {
+
+    border: solid 2px;
+}
+
+th {
+    padding: 10px;
+}
+
+.niesrodek {
+    justify-content: space-evenly;
+}
+
+.rozc>table {
+    width: 100%;
+}
+.prawiesrodek{
+    margin: 20px;
+    text-align:center;
 }
