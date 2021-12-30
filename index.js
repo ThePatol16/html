@@ -30,3 +30,7 @@ function zo(x) {
     }
 
 }
+function uzupelniacz() {
+    document.getElementById("text2").innerHTML="cokolwiek"
+    
+}
